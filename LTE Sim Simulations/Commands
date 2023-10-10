@@ -1,0 +1,12 @@
+1
+./LTE-Sim SingleCell radius nbUE nbVoip nbVideo nbBE nbCBR sched_type frame_struct speed maxDelay videoBitRate
+
+./LTE-Sim SingleCell 1 1 0 0 1 0 1 1 3 0.1 128 -> new.txt
+
+
+
+2
+./LTE-Sim MultiCell nbCells radius nbUE nbVoip nbVideo nbBE nbCBR sched_type frame_struct speed maxDelay videoBitRate
+
+./LTE-Sim MultiCell 7 1 1 0 0 1 0 1 1 3 0.1 128 -> new1.txt
+
